@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"learninginsitute",
+    "site":"cbhr",
     "public": "dist",
     "ignore": [
       "firebase.json",

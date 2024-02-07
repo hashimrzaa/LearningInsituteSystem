@@ -390,6 +390,8 @@ export default function SimpleContainer() {
                 component="label"
                 variant="text"
                 startIcon={<CloudUploadIcon />}
+                accept="image/*"
+
               >
                 Upload file
                 <VisuallyHiddenInput
@@ -398,6 +400,7 @@ export default function SimpleContainer() {
                   onChange={(e) => {
                     file.push(e.target.files);
                   }}
+                  accept="image/*"
                 />
               </Button>
 
