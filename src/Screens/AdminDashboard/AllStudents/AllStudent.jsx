@@ -1,5 +1,5 @@
 import React from "react";
-import Cardstd from "../../../Components/CardStd";
+import Cardstd from "../../../Components/StudentList";
 
 const AllStudent = () => {
   return (

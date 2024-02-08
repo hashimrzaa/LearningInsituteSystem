@@ -9,8 +9,8 @@ import AllCourses from "../../Screens/AdminDashboard/AllCourses/AllCourses";
 import AllStudent from "../../Screens/AdminDashboard/AllStudents/AllStudent";
 import ProtectedRoutes from "../ProtectedRoutes/ProtectedRoutes";
 import Singlecourse from "../../Screens/AdminDashboard/SingleCourse/singlecourse";
-import SinglecourseStd from "../../Screens/AdminDashboard/SingleCourse/SinglecourseStd";
 import Singlestudent from "../../Screens/AdminDashboard/AllStudents/Singlestudent";
+import SinglecourseStd from "../../Screens/StudentDashboard/SinglecourseStd";
 
 const Routing = () => {
   return (

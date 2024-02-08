@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../../Config/Firebase/Firebase";
 import AdminDashboard from "../../Screens/AdminDashboard/AdminDashboard";
-import Navbar from "../../Components/Navbar";
 import Scroll from "../../Components/Scroll";
 
 function ProtectedRoutes({ component }) {

@@ -11,12 +11,11 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { collection, getDocs, query, where } from "firebase/firestore";
-import { auth, db } from "../../../Config/Firebase/Firebase";
+import { auth, db } from "../../Config/Firebase/Firebase";
 import { useParams } from "react-router-dom";
-import Scroll from "../../../Components/Scroll";
+import Scroll from "../../Components/Scroll";
 import { useState } from "react";
-import StudentDashboard from "../../StudentDashboard/StudentDashboard";
-import Navbar from "../../../Components/StudentNavbar";
+import Navbar from "../../Components/StudentNavbar";
 
 export default function SinglecourseStd(props) {
   const { style, index } = props;
